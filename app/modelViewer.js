@@ -1,19 +1,18 @@
 "use client";
-
 import "@google/model-viewer";
 
-const ModelViewer = () => {
+const ModelViewer = ({ src, alt, ar = true, autoRotate = true, cameraControls = true }) => {
   return (
     <model-viewer
-      src="/cube.glb"
-      ar
+      src={src}
+      alt={alt}
+      ar={ar}
       ar-modes="webxr scene-viewer quick-look"
-      camera-controls
-      auto-rotate
+      camera-controls={cameraControls}
+      auto-rotate={autoRotate}
       shadow-intensity="1"
       style={{ width: "100%", height: "500px" }}
-    >
-    </model-viewer>
+    ></model-viewer>
   );
 };
 
