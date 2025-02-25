@@ -1,60 +1,69 @@
 "use client";
-import { useState, useRef } from "react";
-import dynamic from "next/dynamic";
+import { Canvas } from "@react-three/fiber";
+import { XR, createXRStore } from "@react-three/xr";
+import { useState } from "react";
+import { useGLTF } from "@react-three/drei";
+import { useDrag } from "@use-gesture/react";
+import { useThree } from "@react-three/fiber";
+import { useSpring, a } from "@react-spring/three";
 
-// بارگذاری مدل فقط در مرورگر
-const ModelViewer = dynamic(() => import("./modelViewer"), { ssr: false });
+const store = createXRStore();
 
-const CameraPage = () => {
-  const [streaming, setStreaming] = useState(false);
-  const [showModel, setShowModel] = useState(false);
-  const videoRef = useRef(null);
+function Model({ path, position, setPosition, rotation, setRotation }) {
+  const { scene } = useGLTF(path); // بارگذاری مدل GLB
 
-  const openCamera = async () => {
-    if (typeof navigator !== "undefined" && navigator.mediaDevices?.getUserMedia) {
-      try {
-        const stream = await navigator.mediaDevices.getUserMedia({
-          video: { facingMode: "environment" }, // استفاده از دوربین پشت
-        });
+  // متحرک‌سازی موقعیت و چرخش با `react-spring`
+  const [{ pos, rot }, api] = useSpring(() => ({
+    pos: position,
+    rot: rotation,
+    config: { mass: 1, tension: 200, friction: 20 },
+  }));
 
-        if (videoRef.current) {
-          videoRef.current.srcObject = stream;
-          setStreaming(true);
-        }
-      } catch (error) {
-        console.error("دسترسی به دوربین امکان‌پذیر نیست:", error);
-      }
-    } else {
-      console.error("API getUserMedia در این مرورگر پشتیبانی نمی‌شود.");
-    }
-  };
+  // گرفتن دوربین برای حرکت در فضای سه‌بعدی
+  const { size, viewport } = useThree();
+  const aspect = size.width / viewport.width;
+
+  // تابع کشیدن (Drag)
+  const bind = useDrag(
+    ({ offset: [x, y], first, last }) => {
+      if (first) return; // اگر شروع کشیدن بود، کاری نکند
+      const newPosition = [x / aspect, position[1], -y / aspect];
+      const newRotation = [rotation[0], rotation[1] + 0.1, rotation[2]];
+
+      // مقدار موقعیت و چرخش را در حالت ذخیره کن
+      setPosition(newPosition);
+      setRotation(newRotation);
+
+      // مقدار را به انیمیشن `react-spring` بده
+      api.start({ pos: newPosition, rot: newRotation });
+    },
+    { pointerEvents: true }
+  );
 
   return (
-    <div style={{ textAlign: "center", padding: "20px" }}>
-      <h1>واقعیت افزوده (AR)</h1>
-
-      {!streaming && (
-        <button onClick={openCamera} style={{ padding: "10px 20px", fontSize: "16px" }}>
-          فعال‌سازی دوربین (پشت)
-        </button>
-      )}
-
-      {streaming && !showModel && (
-        <button
-          onClick={() => setShowModel(true)}
-          style={{ padding: "10px 20px", fontSize: "16px", marginTop: "20px" }}
-        >
-          نمایش مدل سه‌بعدی در AR
-        </button>
-      )}
-
-      {showModel && <ModelViewer src="/cube.glb" alt="مدل سه‌بعدی" />}
-
-      <div style={{ marginTop: "20px" }}>
-        <video ref={videoRef} autoPlay playsInline style={{ width: "100%", maxWidth: "500px" }}></video>
-      </div>
-    </div>
+    <a.primitive object={scene} position={pos} rotation={rot} {...bind()} />
   );
-};
+}
 
-export default CameraPage;
+export default function App() {
+  // مقدار اولیه‌ی موقعیت و چرخش مدل
+  const [position, setPosition] = useState([0, 1, -1]);
+  const [rotation, setRotation] = useState([0, 0, 0]);
+
+  return (
+    <>
+      <button onClick={() => store.enterAR()}>Enter AR</button>
+      <Canvas>
+        <XR store={store}>
+          <Model
+            path="./cube.glb"
+            position={position}
+            setPosition={setPosition}
+            rotation={rotation}
+            setRotation={setRotation}
+          />
+        </XR>
+      </Canvas>
+    </>
+  );
+}
