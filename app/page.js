@@ -9,7 +9,7 @@ const Model = dynamic(
 
 export default function Home() {
   return (
-    <div className='flex w-full items-center justify-center h-screen'>
+    <div className='flex w-full items-center justify-center h-screen pb-28 lg:pb-10'>
 
       <Model />
     </div>
