@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic'
 
 const Model = dynamic(
-  () => import('./model'),
+  () => import('./components/model'),
   { ssr: false }
 )
 
