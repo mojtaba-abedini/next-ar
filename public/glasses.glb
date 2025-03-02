@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en" prefix="fb: http://www.facebook.com/2008/fbml">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="style-src 'unsafe-inline' 'self' https://static.cadcrowd.com https://assets.cadcrowd.com https://client.crisp.chat https://settings.crisp.chat https://image.crisp.chat https://storage.crisp.chat https://game.crisp.chat wss://client.relay.crisp.chat wss://stream.relay.crisp.chat">
+
+    <link rel="preconnect" href="https://static.cadcrowd.com/" crossorigin>
+    <link rel="dns-prefetch" href="https://static.cadcrowd.com/">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+
+    <title>Cad Crowd</title>
+
+    
+    
+    
+    
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://static.cadcrowd.com/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://static.cadcrowd.com/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://static.cadcrowd.com/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://static.cadcrowd.com/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://static.cadcrowd.com/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://static.cadcrowd.com/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://static.cadcrowd.com/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://static.cadcrowd.com/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://static.cadcrowd.com/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://static.cadcrowd.com/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://static.cadcrowd.com/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://static.cadcrowd.com/favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://static.cadcrowd.com/favicon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Cad Crowd"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="https://static.cadcrowd.com/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://static.cadcrowd.com/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://static.cadcrowd.com/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://static.cadcrowd.com/favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://static.cadcrowd.com/favicon/mstile-310x310.png" />
+
+    
+        <link rel="canonical" href="https://www.cadcrowd.com/login">
+    
+    
+    
+    
+    <meta name="p:domain_verify" content="93bd77c3f96101ea1305c2342a8d1357"/>
+
+                <style>@charset "UTF-8";@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:300;font-display:block;src:url(https://static.cadcrowd.com/build/fonts/fa-light-300.ed31a8f5.woff2) format("woff2"),url(https://static.cadcrowd.com/build/fonts/fa-light-300.850d2b21.ttf) format("truetype")}@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:400;font-display:block;src:url(https://static.cadcrowd.com/build/fonts/fa-regular-400.9fe8c399.woff2) format("woff2"),url(https://static.cadcrowd.com/build/fonts/fa-regular-400.6f4f7e8a.ttf) format("truetype")}@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:900;font-display:block;src:url(https://static.cadcrowd.com/build/fonts/fa-solid-900.b1f556db.woff2) format("woff2"),url(https://static.cadcrowd.com/build/fonts/fa-solid-900.073bf940.ttf) format("truetype")}@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:100;font-display:block;src:url(https://static.cadcrowd.com/build/fonts/fa-thin-100.c5fbddc5.woff2) format("woff2"),url(https://static.cadcrowd.com/build/fonts/fa-thin-100.15f48670.ttf) format("truetype")}.badges .img-ssl{padding-top:13px}.footer-v3 .copyright ul li{padding-left:8px;padding-right:8px}.theme--light.v-icon{color:rgba(0,0,0,.54)}.v-icon.v-icon{align-items:center;display:inline-flex;font-feature-settings:"liga";font-size:24px;justify-content:center;letter-spacing:normal;line-height:1;position:relative;text-indent:0;vertical-align:middle}.v-icon.v-icon::after{background-color:currentColor;border-radius:50%;content:"";display:inline-block;height:100%;left:0;opacity:0;position:absolute;top:0;transform:scale(1.3);width:100%}.theme--light.v-btn{color:rgba(0,0,0,.87)}.theme--light.v-btn.v-btn--has-bg{background-color:#f5f5f5}.v-btn{align-items:center;border-radius:4px;display:inline-flex;flex:0 0 auto;font-weight:500;letter-spacing:.0892857143em;justify-content:center;outline:0;position:relative;text-decoration:none;text-indent:.0892857143em;text-transform:uppercase;vertical-align:middle;white-space:nowrap}.v-btn.v-size--large{font-size:.875rem}.v-btn:before{background-color:currentColor;border-radius:inherit;bottom:0;color:inherit;content:"";left:0;opacity:0;position:absolute;right:0;top:0}.v-btn:not(.v-btn--round).v-size--large{height:44px;min-width:78px;padding:0 19.5555555556px}.v-btn__content{align-items:center;color:inherit;display:flex;flex:1 0 auto;justify-content:inherit;line-height:normal;position:relative}.v-btn--block{display:flex;flex:1 0 auto;min-width:100%!important;max-width:none}.v-btn--is-elevated{box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12)}.v-btn--is-elevated:after{box-shadow:0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12)}.theme--light.v-input,.theme--light.v-input input{color:rgba(0,0,0,.87)}.theme--light.v-input input::-moz-placeholder{color:rgba(0,0,0,.38)}.v-input{align-items:flex-start;display:flex;flex:1 1 auto;font-size:16px;letter-spacing:normal;max-width:100%;text-align:left}.v-input input{max-height:32px}.v-input__control{display:flex;flex-direction:column;height:auto;flex-grow:1;flex-wrap:wrap;min-width:0;width:100%}.v-input__icon{align-items:center;display:inline-flex;height:24px;flex:1 0 auto;justify-content:center;min-width:24px;width:24px}.v-input__slot{align-items:center;display:flex;margin-bottom:8px;min-height:inherit;position:relative;width:100%}.theme--light.v-messages{color:rgba(0,0,0,.6)}.v-messages{flex:1 1 auto;font-size:12px;min-height:14px;min-width:1px;position:relative}.v-application--is-ltr .v-messages{text-align:left}.theme--light.v-text-field>.v-input__control>.v-input__slot:before{border-color:rgba(0,0,0,.42)}.theme--light.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state)>.v-input__control>.v-input__slot fieldset{color:rgba(0,0,0,.38)}.v-text-field{padding-top:12px;margin-top:4px}.v-text-field input{flex:1 1 auto;line-height:20px;padding:8px 0;max-width:100%;min-width:0;width:100%}.v-text-field .v-input__control,.v-text-field .v-input__slot,.v-text-field fieldset{border-radius:inherit}.v-text-field .v-input__control,.v-text-field fieldset{color:currentColor}.v-text-field .v-input__append-inner{align-self:flex-start;display:inline-flex;margin-top:4px;line-height:1}.v-application--is-ltr .v-text-field .v-input__append-inner{margin-left:auto;padding-left:4px}.v-text-field>.v-input__control>.v-input__slot:after,.v-text-field>.v-input__control>.v-input__slot:before{bottom:-1px;content:"";left:0;position:absolute;width:100%}.v-text-field>.v-input__control>.v-input__slot:before{border-color:inherit;border-style:solid;border-width:thin 0 0}.v-text-field>.v-input__control>.v-input__slot:after{background-color:currentColor;border-color:currentColor;border-style:solid;border-width:thin 0;transform:scaleX(0)}.v-text-field__details{display:flex;flex:1 0 auto;max-width:100%;min-height:14px;overflow:hidden}.v-text-field>.v-input__control>.v-input__slot>.v-text-field__slot{display:flex;flex:1 1 auto;position:relative}.v-text-field--outlined{position:relative;border-radius:4px;margin-bottom:16px}.v-text-field--outlined>.v-input__control>.v-input__slot{align-items:stretch;background:0 0;min-height:46px}.v-text-field--enclosed .v-input__append-inner{margin-top:17px}.v-text-field--outlined .v-text-field__slot{align-items:center}.v-text-field.v-text-field--enclosed{margin:0;padding:0}.v-text-field.v-text-field--enclosed .v-text-field__details,.v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)>.v-input__control>.v-input__slot{padding:0 12px}.v-text-field.v-text-field--enclosed .v-text-field__details{padding-top:0;margin-bottom:8px}.v-text-field--outlined>.v-input__control>.v-input__slot:after,.v-text-field--outlined>.v-input__control>.v-input__slot:before{display:none}.v-text-field--outlined fieldset{border-collapse:collapse;border:1px solid currentColor;bottom:0;left:0;position:absolute;right:0;top:0}.v-application--is-ltr .v-text-field--outlined fieldset{padding-left:8px}.v-text-field--outlined legend{line-height:11px;padding:0}.v-application--is-ltr .v-text-field--outlined legend{text-align:left}.alertify-notifier{position:fixed;width:0;overflow:visible;z-index:99999;transform:translate3d(0,0,0)}.alertify-notifier .ajs-msg{position:relative;width:260px;max-height:0;padding:0;opacity:0;margin:0;transform:translate3d(0,0,0)}.alertify-notifier .ajs-msg.ajs-error{box-shadow:0 0 10px rgba(252,100,45,.1)}.alertify-notifier .ajs-msg.ajs-visible{opacity:1;max-height:100%}.alertify-notifier .ajs-msg .alert-content{padding-right:30px}.alertify-notifier .ajs-msg .close{line-height:16px}.alertify-notifier.ajs-top{top:10px}.alertify-notifier.ajs-center{left:50%}.alertify-notifier.ajs-center .ajs-msg{transform:translateX(-50%)}.alertify-notifier.ajs-center.ajs-top .ajs-msg{top:0}.alertify-notifier.ajs-top.ajs-center{top:3%;width:auto}.alertify-notifier.ajs-top.ajs-center .ajs-msg{width:auto;white-space:nowrap;overflow:hidden;max-width:1000px;text-overflow:ellipsis}.alertify-notifier.ajs-center .ajs-msg.ajs-visible{left:auto}.alert.alert-alt{background:#fff!important;border:2px solid #ebebeb;position:relative;color:#484848!important;padding-left:60px;margin-bottom:10px}.alert.alert-alt .alert-icon{border:2px solid #ebebeb;position:absolute;left:-2px;top:-2px;bottom:-2px;border-top-left-radius:4px;border-bottom-left-radius:4px;width:45px;text-align:center;padding-top:10px;padding-bottom:10px;color:#fff;font-size:20px}.alert.alert-alt.alert-danger .alert-icon{border-color:#fc642d;background-color:#fc642d}.close{background:0 0;border:none;float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;-moz-opacity:0.2;-webkit-filter:alpha(opacity=20)}:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#fe595c;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#5cb85c;--bs-teal:#00a699;--bs-cyan:#008489;--bs-black:#000;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#fe595c;--bs-secondary:#6c757d;--bs-success:#5cb85c;--bs-info:#008489;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-primary-rgb:254,89,92;--bs-secondary-rgb:108,117,125;--bs-success-rgb:92,184,92;--bs-info-rgb:0,132,137;--bs-warning-rgb:255,193,7;--bs-danger-rgb:220,53,69;--bs-light-rgb:248,249,250;--bs-dark-rgb:33,37,41;--bs-primary-text-emphasis:rgb(101.6, 35.6, 36.8);--bs-secondary-text-emphasis:rgb(43.2, 46.8, 50);--bs-success-text-emphasis:rgb(36.8, 73.6, 36.8);--bs-info-text-emphasis:rgb(0, 52.8, 54.8);--bs-warning-text-emphasis:rgb(102, 77.2, 2.8);--bs-danger-text-emphasis:rgb(88, 21.2, 27.6);--bs-light-text-emphasis:#495057;--bs-dark-text-emphasis:#495057;--bs-primary-bg-subtle:rgb(254.8, 221.8, 222.4);--bs-secondary-bg-subtle:rgb(225.6, 227.4, 229);--bs-success-bg-subtle:rgb(222.4, 240.8, 222.4);--bs-info-bg-subtle:rgb(204, 230.4, 231.4);--bs-warning-bg-subtle:rgb(255, 242.6, 205.4);--bs-danger-bg-subtle:rgb(248, 214.6, 217.8);--bs-light-bg-subtle:rgb(251.5, 252, 252.5);--bs-dark-bg-subtle:#ced4da;--bs-primary-border-subtle:rgb(254.6, 188.6, 189.8);--bs-secondary-border-subtle:rgb(196.2, 199.8, 203);--bs-success-border-subtle:rgb(189.8, 226.6, 189.8);--bs-info-border-subtle:rgb(153, 205.8, 207.8);--bs-warning-border-subtle:rgb(255, 230.2, 155.8);--bs-danger-border-subtle:rgb(241, 174.2, 180.6);--bs-light-border-subtle:#e9ecef;--bs-dark-border-subtle:#adb5bd;--bs-white-rgb:255,255,255;--bs-black-rgb:0,0,0;--bs-font-sans-serif:"nunito-sans",system-ui,-apple-system,Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));--bs-root-font-size:14px;--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#484848;--bs-body-color-rgb:72,72,72;--bs-body-bg:#fff;--bs-body-bg-rgb:255,255,255;--bs-emphasis-color:#000;--bs-emphasis-color-rgb:0,0,0;--bs-secondary-color:rgba(72, 72, 72, 0.75);--bs-secondary-color-rgb:72,72,72;--bs-secondary-bg:#e9ecef;--bs-secondary-bg-rgb:233,236,239;--bs-tertiary-color:rgba(72, 72, 72, 0.5);--bs-tertiary-color-rgb:72,72,72;--bs-tertiary-bg:#f8f9fa;--bs-tertiary-bg-rgb:248,249,250;--bs-heading-color:inherit;--bs-link-color:#008489;--bs-link-color-rgb:0,132,137;--bs-link-decoration:none;--bs-link-hover-color:rgb(0, 105.6, 109.6);--bs-link-hover-color-rgb:0,106,110;--bs-link-hover-decoration:underline;--bs-code-color:#fe595c;--bs-highlight-color:#484848;--bs-highlight-bg:rgb(255, 242.6, 205.4);--bs-border-width:1px;--bs-border-style:solid;--bs-border-color:#dee2e6;--bs-border-color-translucent:rgba(0, 0, 0, 0.175);--bs-border-radius:0.375rem;--bs-border-radius-sm:0.25rem;--bs-border-radius-lg:0.5rem;--bs-border-radius-xl:1rem;--bs-border-radius-xxl:2rem;--bs-border-radius-2xl:var(--bs-border-radius-xxl);--bs-border-radius-pill:50rem;--bs-box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15);--bs-box-shadow-sm:0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);--bs-box-shadow-lg:0 1rem 3rem rgba(0, 0, 0, 0.175);--bs-box-shadow-inset:inset 0 1px 2px rgba(0, 0, 0, 0.075);--bs-focus-ring-width:0.25rem;--bs-focus-ring-opacity:0.25;--bs-focus-ring-color:rgba(0, 132, 137, 0.25);--bs-form-valid-color:#5cb85c;--bs-form-valid-border-color:#5cb85c;--bs-form-invalid-color:#dc3545;--bs-form-invalid-border-color:#dc3545;font-size:var(--bs-root-font-size);--bs-breakpoint-xs:0;--bs-breakpoint-sm:576px;--bs-breakpoint-md:768px;--bs-breakpoint-lg:992px;--bs-breakpoint-xl:1200px;--bs-breakpoint-xxl:1400px}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%}hr{margin:1rem 0;color:inherit;border:0;border-top:var(--bs-border-width) solid;opacity:.25;background-color:#aaa;overflow:visible;height:0}p{margin-top:0;margin-bottom:1rem}ul{padding-left:2rem;margin-top:0;margin-bottom:1rem}ul ul{margin-bottom:0}a{color:rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));text-decoration:none;background-color:transparent}a:not([href]):not([class]){text-decoration:none;color:#008489}label{display:inline-block;font-weight:400}button{border-radius:0;overflow:visible;text-transform:none}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}[type=button],[type=submit],button{-webkit-appearance:button}::-moz-focus-inner{padding:0;border-style:none}fieldset{min-width:0;padding:0;margin:0;border:0}legend{float:left;width:100%;padding:0;font-size:calc(1.275rem + .3vw);line-height:inherit;border-bottom:1px solid #e5e5e5;margin-bottom:20px}::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field{padding:0}::-webkit-inner-spin-button{height:auto}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-color-swatch-wrapper{padding:0}::file-selector-button{font:inherit;-webkit-appearance:button}.list-unstyled{padding-left:0;list-style:none}.container,.container-fluid{--bs-gutter-x:1.5rem;--bs-gutter-y:0;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){legend{font-size:1.5rem}.container{max-width:1140px}}@media (min-width:1400px){.container{max-width:1320px}}.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x))}.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y)}.col-6{flex:0 0 auto;width:50%}@media (min-width:576px){.col-sm-12{flex:0 0 auto;width:100%}}@media (min-width:768px){.col-md-12{flex:0 0 auto;width:100%}}@media (min-width:1200px){.col-xl-12{flex:0 0 auto;width:100%}}.btn{--bs-btn-padding-x:0.75rem;--bs-btn-padding-y:0.375rem;--bs-btn-font-family: ;--bs-btn-font-size:1rem;--bs-btn-font-weight:600;--bs-btn-line-height:1.5;--bs-btn-color:var(--bs-body-color);--bs-btn-bg:transparent;--bs-btn-border-width:var(--bs-border-width);--bs-btn-border-color:transparent;--bs-btn-border-radius:var(--bs-border-radius);--bs-btn-hover-border-color:transparent;--bs-btn-box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(0, 0, 0, 0.075);--bs-btn-disabled-opacity:0.65;--bs-btn-focus-box-shadow:0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);display:inline-block;padding:var(--bs-btn-padding-y) var(--bs-btn-padding-x);font-family:var(--bs-btn-font-family);font-size:var(--bs-btn-font-size);font-weight:var(--bs-btn-font-weight);line-height:var(--bs-btn-line-height);color:var(--bs-btn-color);text-align:center;vertical-align:middle;border:var(--bs-btn-border-width) solid var(--bs-btn-border-color);border-radius:var(--bs-btn-border-radius);background-color:var(--bs-btn-bg)}.btn-primary{--bs-btn-color:#fff;--bs-btn-bg:#fe595c;--bs-btn-border-color:#fe595c;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:rgb(215.9, 75.65, 78.2);--bs-btn-hover-border-color:rgb(203.2, 71.2, 73.6);--bs-btn-focus-shadow-rgb:254,114,116;--bs-btn-active-color:#fff;--bs-btn-active-bg:rgb(203.2, 71.2, 73.6);--bs-btn-active-border-color:rgb(190.5, 66.75, 69);--bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, 0.125);--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:#fe595c;--bs-btn-disabled-border-color:#fe595c}.btn-outline-dark{--bs-btn-color:#212529;--bs-btn-border-color:#212529;--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#212529;--bs-btn-hover-border-color:#212529;--bs-btn-focus-shadow-rgb:33,37,41;--bs-btn-active-color:#fff;--bs-btn-active-bg:#212529;--bs-btn-active-border-color:#212529;--bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, 0.125);--bs-btn-disabled-color:#212529;--bs-btn-disabled-bg:transparent;--bs-btn-disabled-border-color:#212529;--bs-gradient:none;--bs-btn-border-width:2px}.collapse:not(.show){display:none}.dropdown{position:relative}.dropdown-toggle{white-space:nowrap}.dropdown-menu{--bs-dropdown-zindex:1000;--bs-dropdown-min-width:10rem;--bs-dropdown-padding-x:0;--bs-dropdown-padding-y:0.5rem;--bs-dropdown-spacer:0.125rem;--bs-dropdown-font-size:1rem;--bs-dropdown-color:var(--bs-body-color);--bs-dropdown-bg:var(--bs-body-bg);--bs-dropdown-border-color:var(--bs-border-color-translucent);--bs-dropdown-border-radius:12px;--bs-dropdown-border-width:var(--bs-border-width);--bs-dropdown-inner-border-radius:calc(12px - var(--bs-border-width));--bs-dropdown-divider-bg:var(--bs-border-color-translucent);--bs-dropdown-divider-margin-y:0.5rem;--bs-dropdown-box-shadow:var(--bs-box-shadow);--bs-dropdown-link-color:var(--bs-body-color);--bs-dropdown-link-hover-color:var(--bs-body-color);--bs-dropdown-link-hover-bg:var(--bs-tertiary-bg);--bs-dropdown-link-active-color:#262626;--bs-dropdown-link-active-bg:#f5f5f5;--bs-dropdown-link-disabled-color:var(--bs-tertiary-color);--bs-dropdown-item-padding-x:1rem;--bs-dropdown-item-padding-y:6px;--bs-dropdown-header-color:#6c757d;--bs-dropdown-header-padding-x:1rem;--bs-dropdown-header-padding-y:0.5rem;position:absolute;z-index:var(--bs-dropdown-zindex);display:none;min-width:var(--bs-dropdown-min-width);padding:var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);margin:0;font-size:var(--bs-dropdown-font-size);color:var(--bs-dropdown-color);text-align:left;list-style:none;background-color:var(--bs-dropdown-bg);background-clip:padding-box;border:var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);border-radius:var(--bs-dropdown-border-radius)}.nav{--bs-nav-link-padding-x:1rem;--bs-nav-link-padding-y:0.5rem;--bs-nav-link-font-weight: ;--bs-nav-link-color:var(--bs-link-color);--bs-nav-link-hover-color:var(--bs-link-hover-color);--bs-nav-link-disabled-color:var(--bs-secondary-color);display:flex;flex-wrap:wrap;padding-left:0;margin-bottom:0;list-style:none}.navbar{--bs-navbar-padding-x:0;--bs-navbar-padding-y:0.5rem;--bs-navbar-color:rgba(var(--bs-emphasis-color-rgb), 0.65);--bs-navbar-hover-color:rgba(var(--bs-emphasis-color-rgb), 0.8);--bs-navbar-disabled-color:rgba(var(--bs-emphasis-color-rgb), 0.3);--bs-navbar-active-color:rgba(var(--bs-emphasis-color-rgb), 1);--bs-navbar-brand-padding-y:0.3125rem;--bs-navbar-brand-margin-end:1rem;--bs-navbar-brand-font-size:1.25rem;--bs-navbar-brand-color:rgba(var(--bs-emphasis-color-rgb), 1);--bs-navbar-brand-hover-color:rgba(var(--bs-emphasis-color-rgb), 1);--bs-navbar-nav-link-padding-x:0.5rem;--bs-navbar-toggler-padding-y:0.25rem;--bs-navbar-toggler-padding-x:0.75rem;--bs-navbar-toggler-font-size:1.25rem;--bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%2872, 72, 72, 0.75%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");--bs-navbar-toggler-border-color:rgba(var(--bs-emphasis-color-rgb), 0.15);--bs-navbar-toggler-border-radius:var(--bs-border-radius);--bs-navbar-toggler-focus-width:0.25rem;position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding:var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)}.navbar>.container-fluid{display:flex;flex-wrap:inherit;align-items:center;justify-content:space-between}.navbar-brand{padding-top:var(--bs-navbar-brand-padding-y);padding-bottom:var(--bs-navbar-brand-padding-y);margin-right:var(--bs-navbar-brand-margin-end);font-size:var(--bs-navbar-brand-font-size);color:var(--bs-navbar-brand-color);white-space:nowrap}.navbar-nav{--bs-nav-link-padding-x:0;--bs-nav-link-padding-y:0.5rem;--bs-nav-link-font-weight: ;--bs-nav-link-color:var(--bs-navbar-color);--bs-nav-link-hover-color:var(--bs-navbar-hover-color);--bs-nav-link-disabled-color:var(--bs-navbar-disabled-color);display:flex;flex-direction:column;padding-left:0;list-style:none}.navbar-nav .dropdown-menu{position:static}.navbar-collapse{flex-basis:100%;flex-grow:1;align-items:center}.navbar-toggler{padding:var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);font-size:var(--bs-navbar-toggler-font-size);line-height:1;color:var(--bs-navbar-color);background-color:transparent;border:var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);border-radius:var(--bs-navbar-toggler-border-radius)}@media (min-width:992px){.navbar-expand-lg{flex-wrap:nowrap;justify-content:flex-start}.navbar-expand-lg .navbar-nav{flex-direction:row}.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expand-lg .navbar-collapse{display:flex!important;flex-basis:auto}.navbar-expand-lg .navbar-toggler{display:none}}.alert{--bs-alert-bg:transparent;--bs-alert-padding-x:1rem;--bs-alert-padding-y:1rem;--bs-alert-margin-bottom:1rem;--bs-alert-color:inherit;--bs-alert-border-color:transparent;--bs-alert-border:var(--bs-border-width) solid var(--bs-alert-border-color);--bs-alert-border-radius:var(--bs-border-radius);--bs-alert-link-color:inherit;position:relative;padding:var(--bs-alert-padding-y) var(--bs-alert-padding-x);margin-bottom:var(--bs-alert-margin-bottom);color:var(--bs-alert-color);background-color:var(--bs-alert-bg);border:var(--bs-alert-border);border-radius:var(--bs-alert-border-radius)}.alert-danger{--bs-alert-color:var(--bs-danger-text-emphasis);--bs-alert-bg:var(--bs-danger-bg-subtle);--bs-alert-border-color:var(--bs-danger-border-subtle);--bs-alert-link-color:var(--bs-danger-text-emphasis)}.clearfix::after{display:block;clear:both;content:""}.d-none{display:none!important}.mt-3{margin-top:1rem!important}.mt-5{margin-top:3rem!important}.pt-4{padding-top:1.5rem!important}.pb-0{padding-bottom:0!important}.pb-4{padding-bottom:1.5rem!important}.text-center{text-align:center!important}.text-white{--bs-text-opacity:1;color:rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important}@media (min-width:768px){.d-md-flex{display:flex!important}}@media (min-width:992px){.d-lg-block{display:block!important}.d-lg-flex{display:flex!important}.d-lg-none{display:none!important}.nav .dropdown-menu{margin-top:0}}.fal,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:var(--fa-display,inline-block);font-style:normal;font-variant:normal;line-height:1;text-rendering:auto;font-family:"Font Awesome 6 Pro"}.fal::before,.far::before,.fas::before{content:var(--fa)}.fa-envelope{--fa:"\f0e0";--fa--fa:"\f0e0\f0e0"}.fa-lock-alt{--fa:"\f30d";--fa--fa:"\f30d\f30d"}.fa-exclamation-triangle{--fa:"\f071";--fa--fa:"\f071\f071"}.fa-chevron-down{--fa:"\f078";--fa--fa:"\f078\f078"}.fa-search{--fa:"\f002";--fa--fa:"\f002\f002"}:host,:root{--fa-style-family-classic:"Font Awesome 6 Pro";--fa-font-light:normal 300 1em/1 "Font Awesome 6 Pro";--fa-style-family-classic:"Font Awesome 6 Pro";--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Pro";--fa-style-family-classic:"Font Awesome 6 Pro";--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Pro";--fa-style-family-classic:"Font Awesome 6 Pro";--fa-font-thin:normal 100 1em/1 "Font Awesome 6 Pro";--fa-style-family-brands:"Font Awesome 6 Brands";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands";--fa-style-family-sharp:"Font Awesome 6 Sharp";--fa-font-sharp-light:normal 300 1em/1 "Font Awesome 6 Sharp";--fa-style-family-sharp:"Font Awesome 6 Sharp";--fa-font-sharp-solid:normal 900 1em/1 "Font Awesome 6 Sharp";--fa-style-family-duotone:"Font Awesome 6 Duotone";--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone"}.fal{font-weight:300}.far{font-weight:400}.fas{font-weight:900}html{position:relative;min-height:100%;box-sizing:border-box;overflow-y:scroll;-webkit-text-size-adjust:100%;word-break:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{font-size:14px;line-height:1.43;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.help-block{margin-top:5px;margin-bottom:0}.content{padding-top:20px;padding-bottom:20px}.alert{margin-bottom:20px}.dropdown-menu{font-size:14px;box-shadow:rgba(0,0,0,.12) 0 2px 16px}.btn{font-weight:600;font-size:14px;white-space:nowrap}a.btn.btn-primary{color:#fff!important}.navbar,.navbar a{font-size:14px;font-weight:600}@media (min-width:992px) and (max-width:1030px){.navbar-primary.guest .nav>li>a{padding-left:13px;padding-right:13px}}.navbar-default{background-color:#fff;border:none}.navbar .container-fluid{padding:0}.nav>li>a{position:relative;display:block;padding:10px 15px}.navbar-nav .dropdown-toggle:after{display:none}.navbar .dropdown-menu .divider{background-color:#e5e5e5;height:1px;margin:9px 0;overflow:hidden}.navbar .dropdown-menu>li>a{display:block;padding:6px 20px;clear:both;font-weight:400;line-height:1.42857143;color:#333;white-space:nowrap}body.with-fixed-navbar{padding-top:54px}body.with-fixed-navbar .navbar{position:fixed;top:0;right:0;left:0;z-index:200}.navbar{min-height:54px;padding-top:0;padding-bottom:0;margin-bottom:20px;border-radius:0;box-shadow:0 0 0 1px rgba(0,0,0,.1);z-index:200;width:100%}.navbar-nav{margin:0}.navbar-collapse{padding-left:0;padding-right:0;border-top:1px solid transparent}.navbar-default .navbar-collapse{border-color:#e7e7e7}.container-fluid>.navbar-collapse{padding-top:10px;padding-bottom:10px}@media (min-width:992px){body.with-fixed-navbar{padding-top:60px}.navbar-nav>li>a{padding-top:20px;padding-bottom:20px}.navbar-nav>li>a.with-wrapper{padding-top:0;padding-bottom:0}.navbar-nav>li>a.with-wrapper .menu-item-wrapper{padding-top:20px;padding-bottom:18px;border-bottom:2px solid transparent}.container-fluid>.navbar-collapse{padding-top:0;padding-bottom:0}.navbar-collapse{border-top:none}.navbar-collapse-main{float:left}}.navbar-default .navbar-toggler{border-color:#ddd}.navbar-header{text-align:center;height:54px}.container-fluid>.navbar-collapse,.container-fluid>.navbar-header{margin-left:0;margin-right:0}.navbar-collapse-user{flex:0 0 auto}.navbar>.container-fluid .navbar-brand{margin-left:0}.navbar .navbar-brand{padding:15px}.navbar .navbar-brand,.navbar .navbar-brand-text{display:inline-block;height:54px;line-height:24px;padding-top:14px;padding-bottom:13px;margin-left:0;margin-right:0;color:#fe595c!important;font-weight:700;text-transform:lowercase;font-size:24px;letter-spacing:-.5px;float:none;white-space:nowrap}@media (max-width:991px){.navbar-nav>li.divider{background-color:#e5e5e5;height:1px;margin:12px 0;overflow:hidden}.navbar .navbar-brand{position:absolute;width:182px;left:0;right:0;margin-left:auto!important;margin-right:auto!important}.navbar-default .navbar-nav a{font-size:16px;font-weight:400;line-height:24px!important;padding-top:12px!important;padding-bottom:12px!important}.navbar-default .navbar-nav a.btn-primary{padding-top:6px!important;padding-bottom:6px!important;font-weight:400}}.navbar .navbar-brand-text{float:left}@media (min-width:768px){.navbar .navbar-brand-text{position:absolute;width:116px;left:0;right:0;margin-left:auto!important;margin-right:auto!important}}.navbar.guest .navbar-brand{display:none}.navbar-brand img{margin-right:10px;width:auto;height:27px;display:inline-block}.navbar-cta{padding-left:15px;padding-right:15px}.navbar-toggler{margin-top:10px;margin-bottom:10px}.navbar-default .btn-nav-cta-mobile{float:right;margin:10px 15px}.navbar-default .btn-search-nav-mobile{float:right;margin:10px 0}@media (min-width:768px){.navbar-default .btn-search-nav-mobile{margin-left:10px}}@media (max-width:439px){.navbar-default .btn-nav-cta-mobile{margin-left:auto}}@media (min-width:992px){.navbar .navbar-brand-text{display:none}.navbar .navbar-header{height:60px}.navbar .navbar-brand,.navbar.guest .navbar-brand{display:inline-block;height:60px;padding-top:15px;padding-bottom:15px}.navbar .navbar-brand img{width:auto;height:30px}.navbar-toggler{margin-top:13px;margin-bottom:13px}.navbar-default .btn-nav-cta-mobile,.navbar-default .btn-search-nav-mobile{display:none!important}}.navbar-toggler.navbar-toggle-logo{float:left;margin-left:15px;margin-right:15px}.navbar-default .navbar-toggler.navbar-toggle-logo{border:none;background:0 0;height:54px;padding:0 15px;margin:0;border-radius:0}.navbar-default .navbar-toggler.navbar-toggle-logo .icon-dropdown{vertical-align:middle;margin-left:5px;transform:rotate(-180deg);color:#bbb;font-size:10px}.navbar-default .navbar-toggler.navbar-toggle-logo.collapsed .icon-dropdown{transform:rotate(0)}.navbar-collapse-main-mobile{position:absolute;top:53px;background:#fff;width:100%;z-index:200;box-shadow:0 5px 5px rgba(0,0,0,.1)}@media (min-width:992px){.navbar .btn{padding-top:5px;padding-bottom:5px;margin:13px 0;border-width:2px}}.navbar-collapse-user .btn-search{font-size:16px}.dropdown-toggle .icon-dropdown{color:#bbb;font-size:10px;vertical-align:baseline;margin-left:2px}.navbar-nav>li>.dropdown-menu{border-radius:0}.navbar-nav .dropdown-menu>li>a{padding-top:6px;padding-bottom:6px}.navbar-default .navbar-nav>li>a{color:#484848}.navbar-default .navbar-nav>li>a.btn-primary{color:#fff}.navbar-nav .dropdown-menu{border:1px solid #d8d8d8}@media (max-width:991px){.navbar-primary .navbar-header{display:flex;width:100%}.navbar .btn-search.btn-search-nav-mobile{margin-left:auto}.navbar-default .btn-nav-cta-mobile{order:4}}.services-menu-wrap .dropdown-menu>.menu-item>a{padding:10px 15px 10px 25px!important}.services-menu-wrap>.dropdown-menu{border-bottom:1px solid #e7e7e7!important}@media (min-width:992px){.nav-menu-services{padding:0!important}.nav-menu-services .columns-wrap{display:table-row}.nav-menu-services .column{display:table-cell;min-width:220px;padding-top:10px;padding-bottom:10px}.nav-menu-services .column-right{border-left:1px solid #e5e5e5}.nav-menu-services .menu-items{list-style:none;padding:0}.nav-menu-services .menu-items>.menu-item>a{display:block;padding:10px 15px;white-space:nowrap;color:#333;text-decoration:none;font-weight:400}.navbar .dropdown-menu{padding-top:10px;padding-bottom:10px}.navbar .dropdown-menu:before{position:absolute;top:-10px;left:9px;display:inline-block;border-right:10px solid transparent;border-bottom:10px solid rgba(0,0,0,.1);border-left:10px solid transparent;content:''}.navbar .dropdown-menu:after{position:absolute;top:-9px;left:10px;display:inline-block;border-right:9px solid transparent;border-bottom:9px solid #fff;border-left:9px solid transparent;content:''}.nav-menu-services:before{left:70px}.nav-menu-services:after{left:71px}.nav-menu-browse:before{left:63px}.nav-menu-browse:after{left:64px}}.navbar .btn-search{display:none;background:0 0;box-shadow:none;height:34px;outline:0!important}.navbar .btn-search-nav-mobile{line-height:32px}@media (min-width:440px){.navbar .btn-search{display:inline-block}}.navbar .btn-search.btn-search-nav-mobile{font-size:18px;padding-top:0;padding-bottom:0;color:#888}.navbar .navbar-search-wrap{position:absolute;width:100%;height:53px;background-color:#fff;z-index:1;padding:7px 15px}@media (min-width:992px){.navbar .navbar-search-wrap{padding-top:10px;padding-bottom:10px;height:60px}}.navbar .navbar-search-wrap form{position:relative}.navbar .navbar-search-wrap .search-icon{position:absolute;left:7px;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);font-size:16px;color:#008489}.navbar .navbar-search-wrap .close{position:absolute;top:50%;right:0;transform:translateY(-50%);-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);padding:7px;font-size:26px;line-height:1;opacity:.4;-moz-opacity:0.4;border:none;background-color:transparent}.navbar .input-navbar-search{width:100%;height:40px;font-size:16px;font-weight:400;padding-left:37px;padding-right:30px;border:none;outline:0}.footer-v2{color:#484848;font-size:14px;line-height:1.28577em;position:relative;padding-top:24px;padding-bottom:24px;border-top:1px solid #ebebeb;background-color:#fff}.footer-v2 a{color:#767676}.footer-v2 .footer-content-wrap{background:#fff;position:relative;padding-bottom:30px}.footer-v2 .footer-content-wrap hr{display:none;margin-top:0;margin-bottom:16px}.footer-v2 .column-header{line-height:inherit;font-weight:800;padding:16px 10px}.footer-v2 .column-header .icon{float:right}.footer-v2 .column-content{padding-left:10px;padding-right:10px}.footer-v2 .column-content .footer-list{margin-bottom:16px}.footer-v2 .footer-column{border-bottom:1px solid #dbdbdb}.footer-v2 .badges{margin-bottom:-20px;text-align:center}.footer-v2 .badges a{display:inline-block;margin-bottom:16px;margin-right:4px;vertical-align:top}.footer-v2 .footer-mobile-wrap{margin-top:20px}@media (min-width:992px){.footer-v2{padding-top:48px;padding-bottom:48px}.footer-v2 .footer-columns-wrap{display:table;width:100%}.footer-v2 .footer-columns{display:table-row}.footer-v2 .footer-column{display:table-cell;padding-left:8px;padding-right:8px;width:25%;border-bottom:none}.footer-v2 .column-header{padding:0}.footer-v2 .column-header .icon{display:none}.footer-v2 .column-content{margin-top:16px;padding-left:0;padding-right:0}.footer-v2 .column-content.collapse{display:block}.footer-v2 .badges{text-align:left}}.column-content ul.footer-list{list-style:none;margin:0;white-space:nowrap}.column-content ul.footer-list li{line-height:inherit;margin-bottom:16px}.column-content ul.footer-list a{font-weight:600}@media screen and (max-width:991PX){.column-content ul.footer-list li{margin-bottom:12px}}@media (max-width:767px){.footer-v2 .footer-content-wrap{padding-bottom:13px}}.theme--light.v-application{background:#fff;color:rgba(0,0,0,.87)}*,::after,::before{box-sizing:border-box;background-repeat:no-repeat;box-sizing:inherit}::after,::before{text-decoration:inherit;vertical-align:inherit}input{border-radius:0}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}button,input{font:inherit;background-color:transparent;border-style:none}[type=button]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button:-moz-focusring{outline:ButtonText dotted 1px}[type=submit],button,html [type=button]{-webkit-appearance:button}legend{border:0;color:inherit;display:table;white-space:normal;max-width:100%}::-webkit-file-upload-button{-webkit-appearance:button;color:inherit;font:inherit}img{vertical-align:middle;border-style:none}.v-application{line-height:1.5;font-family:unset}.v-application ::-ms-clear,.v-application ::-ms-reveal{display:none}.v-application p{margin-bottom:16px}.v-application .mt-3{margin-top:12px!important}.v-application .mt-5{margin-top:20px!important}.v-application .pb-0{padding-bottom:0!important}.v-application .text-left{text-align:left!important}.v-application .text-right{text-align:right!important}.v-application .text-center{text-align:center!important}.v-text-field.v-text-field--enclosed>.v-input__control>.v-input__slot{margin-bottom:1px}.v-input__slot .v-input__append-inner{margin-top:12px}.md-checkbox{display:block;position:relative;text-align:left}.md-checkbox label{display:inline;line-height:1.5em;vertical-align:top;clear:both;padding-left:1px}.md-checkbox label:not(:empty){padding-left:.75em}.md-checkbox label:after,.md-checkbox label:before{content:"";position:absolute;box-sizing:border-box;left:0;top:3px}.md-checkbox label:before{width:18px;height:18px;background:#fff;border:1px solid rgba(165,158,158,.54);border-radius:2px}.md-checkbox input[type=checkbox]{outline:0;width:18px;margin:3px 0 0;height:18px;display:block;left:0;position:absolute;float:left;font-size:inherit}.checkbox>label.md-checkbox{padding-left:20px}.w-login-form .w-fonts-text-medium{font-size:19px;font-weight:600}.w-login-form .separator{display:flex;align-items:center;text-align:center;margin:15px 0}.w-login-form .separator::after,.w-login-form .separator::before{content:'';flex:1;border-bottom:1px solid #e4e4e4}.w-login-form .separator::before{margin-right:.25em}.w-login-form .separator::after{margin-left:.25em}.w-login-form .separator span{padding:0 20px;color:#4a4a4a}.w-login-form .v-btn__content{font-size:16px;text-transform:none;font-weight:600;letter-spacing:normal}.w-login-form .w-block-remember{margin-bottom:10px}.w-card-form{border:1px solid #e4e4e4;padding:24px;max-width:437px;margin:0 auto;color:#484848}.content{font-size:16px}.v-application--wrap{min-height:auto!important}.w-block-remember{padding-top:12px;padding-bottom:12px}.w-block-remember .form-group{margin-bottom:10px}</style>
+<link href="https://static.cadcrowd.com/build/css/75666.766fe7fa.css" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+<link href="https://static.cadcrowd.com/build/css/26440.40445c36.css" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+<link href="https://static.cadcrowd.com/build/css/73748.0e825e45.css" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+<link href="https://static.cadcrowd.com/build/css/89436.c89cca14.css" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+<link href="https://static.cadcrowd.com/build/css/79375.24681848.css" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+<link href="https://static.cadcrowd.com/build/css/login-v1.44343c80.css" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+    
+    
+        <script>
+        var loginTitle = null;
+    </script>
+        <script>
+    window.onerror = function(message, source, lineno, colno) {
+        try {
+            fetch('/error-report/submit', {
+                method: 'POST',
+                headers: {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    url: window.location.href,
+                    message: message,
+                    source: source,
+                    lineno: lineno,
+                    colno: colno,
+                }),
+            });
+        } catch (e) {
+            console.error(e);
+        }
+
+        return false;
+    }
+</script>
+
+        <script type="text/javascript">
+            var userId = null;
+            var isLoggedIn = false;
+            var isAdmin = false;
+            var impersonated = false;
+            var desktopUser = '';
+            var fbAppId = '366040276789345';
+            var next = '\/3d-models\/glasses-1';
+            var url = '\/login?next=https%3A%2F%2Fwww.cadcrowd.com%2F3d-models%2Fglasses-1\u0026redirect=1';
+            var currentTime = '2025-03-02T08:55:54+00:00';
+            var config = JSON.parse('{\u0022referralSources\u0022:{\u00222\u0022:\u0022Search engine results\u0022,\u00223\u0022:\u0022Referral from friend or colleague\u0022,\u00224\u0022:\u0022Blog or magazine article\u0022,\u002210\u0022:\u0022Social media (X, LinkedIn, Facebook, etc.)\u0022,\u002212\u0022:\u0022Chatbot (ChatGPT, Gemini, Grok, etc.)\u0022,\u00229\u0022:\u0022Other\u0022},\u0022recaptchaKey\u0022:\u00226Lc85gETAAAAAABoqm2KlAOKI9CGwf0A2Gi0aP9j\u0022,\u0022googleAppId\u0022:\u0022603269327615-4d3m95i30espdg9kiehqgho2qph85hag.apps.googleusercontent.com\u0022,\u0022googleApiKey\u0022:\u0022AIzaSyD2s0tGY3_yxSQMqHVbYk8ia8PGb1_Nk20\u0022,\u0022themePath\u0022:\u0022\\\/themes\\\/v5\\\/\u0022,\u0022staticBaseUrl\u0022:\u0022https:\\\/\\\/static.cadcrowd.com\u0022}');
+            var notificationsPermissionBannerEnabled = false;
+            var currentRoute = 'login';
+        </script>
+    
+    </head>
+<body class="no-touch with-fixed-navbar ">
+        <div id="authApp"></div>
+    
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLTKRNS"
+                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+                <nav class="navbar navbar-default navbar-primary navbar-expand-lg guest">
+    <div class="container-fluid">
+        <div class="navbar-search-wrap d-none">
+            <form method="get" action="/search">
+                <i class="far fa-search search-icon"></i>
+                <input type="search" class="input-navbar-search" name="q" value="" placeholder="Search services, designers, contests, jobs, 3D models, forum, blog, etc.">
+                <button type="button" class="close" id="btnHideNavbarSearch">&times;</button>
+            </form>
+        </div>
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+                <button type="button" class="navbar-toggler navbar-toggle-logo collapsed" data-bs-toggle="collapse" data-bs-target="#navbar-menu-main">
+                <img src="https://static.cadcrowd.com/themes/v5/images/logo/cc-logo.svg" width="27" height="27" alt="">
+                <i class="icon-dropdown far fa-chevron-down"></i>
+            </button>
+
+            <a class="navbar-brand-text" href="/">
+                <img src="https://static.cadcrowd.com/themes/v5/images/logo/cc-text-21.svg" width="116" height="21" alt="Cad Crowd">
+            </a>
+
+            <a href="https://www.cadcrowd.com/quote" class="btn btn-primary btn-nav-cta-mobile track-click" data-track="event">Get a quote</a>
+<button type="button" class="btn btn-search btn-search-nav-mobile" title="Search" data-bs-toggle="navbar-search"><i class="far fa-search"></i></button>
+                <a class="navbar-brand" href="/">
+                <img src="https://static.cadcrowd.com/themes/v5/images/logo/cc-logo-30.svg" width="168" height="30" alt="Cad Crowd">
+            </a>
+        </div><!-- .navbar-header -->
+
+        <div class="collapse navbar-collapse navbar-collapse-main">
+                <ul class="nav navbar-nav d-none d-lg-flex">
+    <li>
+        <a href="https://www.cadcrowd.com/how-it-works" class="with-wrapper">
+            <div class="menu-item-wrapper">
+                How it works
+            </div>
+        </a>
+    </li>
+
+    <li class="dropdown hover services-menu-wrap">
+        <a id="dropCategoriesDesktop" href="/services" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Services <i class="icon-dropdown far fa-chevron-down"></i></a>
+
+        <div class="dropdown-menu nav-menu-services" role="menu" aria-labelledby="dropCategoriesDesktop" id="menuServicesDesktop">
+            <div class="columns-wrap">
+                <div class="columns-wrap">
+                    <div class="column column-left">
+                        <ul class="menu-items">
+                                <li class="menu-item" data-target="#category_menu_12">
+                                <a href="/3d-modeling-design">3D Modeling Design</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_134">
+                                <a href="/3d-rendering-company">3D Rendering Services</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_2">
+                                <a href="/architectural-design">Architectural Design</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_13">
+                                <a href="/cad-drafting-and-design">CAD Design</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_52">
+                                <a href="/consumer-products">Consumer Products</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_47">
+                                <a href="/engineering">Engineering</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_95">
+                                <a href="/invention-help">Invention Design Help</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_6">
+                                <a href="/product-design">Product Design</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_334">
+                                <a href="/staffing-and-recruiting">Staffing &amp; Recruiting</a>
+                            </li>
+                                <li class="menu-item" data-target="#category_menu_46">
+                                <a href="/other">Other Services</a>
+                            </li>
+                                <li role="separator" class="divider"></li>
+                            <li class="menu-item">
+                                <a href="/services">View All Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="menuServicesRight" class="column column-right d-none">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+
+    <li><a href="https://www.cadcrowd.com/projects">Contests</a></li>
+
+    <li class="dropdown hover navbar-item-browse">
+        <a id="dropdown_browse_desktop" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="javascript:void(0);">
+            Browse
+            <i class="icon-dropdown far fa-chevron-down"></i>
+        </a>
+        <ul class="dropdown-menu aim-menu nav-menu-browse"  role="menu" aria-labelledby="dropdown_browse_desktop">
+            <li><a href="https://www.cadcrowd.com/jobs/search">Jobs</a></li>
+            <li><a href="https://www.cadcrowd.com/profiles">Designers</a></li>
+            <li><a href="https://www.cadcrowd.com/3d-models">3D Models</a></li>
+            <li><a href="/leaderboard">Leaderboard</a></li>
+            <li><a href="/forum">Forum</a></li>
+            <li><a href="https://www.cadcrowd.com/hire">Trending Skills</a></li>
+        </ul>
+    </li>
+
+    <li><a href="/blog/">Blog</a></li>
+</ul>
+            </div>
+        <div class="collapse navbar-collapse navbar-collapse-main navbar-collapse-main-mobile" id="navbar-menu-main">
+                <ul class="nav navbar-nav d-lg-none">
+
+    <li>
+        <a href="https://www.cadcrowd.com">Home</a>
+    </li>
+
+    <li role="separator" class="divider"></li>
+
+    <li class="dropdown hover services-menu-wrap">
+        <a id="dropCategoriesMobile" href="/services" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Services <i class="icon-dropdown far fa-chevron-down"></i></a>
+
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropCategoriesMobile" id="menuServicesMobile">
+                <li class="menu-item">
+                <a href="/3d-modeling-design">3D Modeling Design</a>
+            </li>
+                <li class="menu-item">
+                <a href="/3d-rendering-company">3D Rendering Services</a>
+            </li>
+                <li class="menu-item">
+                <a href="/architectural-design">Architectural Design</a>
+            </li>
+                <li class="menu-item">
+                <a href="/cad-drafting-and-design">CAD Design</a>
+            </li>
+                <li class="menu-item">
+                <a href="/consumer-products">Consumer Products</a>
+            </li>
+                <li class="menu-item">
+                <a href="/engineering">Engineering</a>
+            </li>
+                <li class="menu-item">
+                <a href="/invention-help">Invention Design Help</a>
+            </li>
+                <li class="menu-item">
+                <a href="/product-design">Product Design</a>
+            </li>
+                <li class="menu-item">
+                <a href="/staffing-and-recruiting">Staffing &amp; Recruiting</a>
+            </li>
+                <li class="menu-item">
+                <a href="/other">Other Services</a>
+            </li>
+                <li role="separator" class="divider"></li>
+            <li class="menu-item">
+                <a href="/services">View All Services</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="/how-it-works">How it works</a>
+    </li>
+
+    <li class="dropdown hover navbar-item-community">
+        <a id="dropdown_browse_mobile" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="javascript:void(0);">
+            Browse
+            <i class="icon-dropdown far fa-chevron-down"></i>
+        </a>
+        <ul class="dropdown-menu nav-menu-community"  role="menu" aria-labelledby="dropdown_browse_mobile">
+            <li><a href="https://www.cadcrowd.com/jobs/search">Jobs</a></li>
+            <li><a href="https://www.cadcrowd.com/profiles">Designers</a></li>
+            <li><a href="https://www.cadcrowd.com/3d-models">3D models</a></li>
+            <li><a href="https://www.cadcrowd.com/projects">Contests</a></li>
+            <li><a href="/forum">Forum</a></li>
+            <li><a href="/leaderboard">Leaderboard</a></li>
+        </ul>
+    </li>
+
+    <li role="separator" class="divider"></li>
+    <li>
+        <a href="https://www.cadcrowd.com/login" class="js-login-open">
+           Log in
+        </a>
+    </li>
+    <li>
+        <a href="https://www.cadcrowd.com/signup" class="js-signup-open">
+            Sign up
+        </a>
+    </li>
+
+    <li role="separator" class="divider"></li>
+    <li id="navbar_item_blog">
+        <a href="/blog/">Blog</a>
+    </li>
+
+    <li role="separator" class="divider"></li>
+    <li>
+        <a href="/contact">Contact us</a>
+    </li>
+</ul>
+            </div><!-- /.navbar-collapse -->
+
+        <div class="collapse navbar-collapse navbar-collapse-user">
+                <div>
+    <ul class="nav navbar-nav navbar-right d-none d-md-flex">
+        <li>
+            <button type="button" class="btn btn-search" title="Search" data-bs-toggle="navbar-search"><i
+                    class="far fa-search"></i></button>
+        </li>
+        <li>
+            <a href="https://www.cadcrowd.com/signup" class="js-signup-open with-wrapper">
+                <div class="menu-item-wrapper">
+                    Sign up
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.cadcrowd.com/login" class="with-wrapper js-login-open">
+                <div class="menu-item-wrapper">
+                    Log in
+                </div>
+            </a>
+        </li>
+        <li class="navbar-cta" id="navbar_cta">
+            <a href="https://www.cadcrowd.com/quote" class="btn btn-primary track-click" data-track="event">Get a quote</a>
+        </li>
+    </ul>
+</div>
+            </div><!-- /.navbar-collapse -->
+
+    
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+        
+    <div class="container">
+    <div class="content pb-4 pt-4">
+        <div id="loginPageApp"></div>
+    </div><!-- .content -->
+</div><!-- .container -->
+
+    
+                    <footer class="footer-v3 footer-v2 ">
+<div class="footer-content-wrap">
+        <div class="container">
+        <hr aria-hidden="true">
+        <div class="footer-columns-wrap">
+            <div class="footer-columns" id="footerColumns">
+                <div class="footer-column">
+                    <div class="column-header" role="button" data-bs-toggle="collapse" data-parent="#footerColumns" href="#footerServices" aria-expanded="false" aria-controls="footerServices">
+                        <i class="icon fas fa-chevron-down"></i>
+                        How it works
+                    </div>
+                    <div class="column-content collapse" id="footerServices">
+                        <ul class="footer-list list-unstyled">
+                                                    <li>
+                                <a href="/how-it-works" title="How it works">How it works</a>
+                            </li>
+                                                    <li>
+                                <a href="/how-it-works/private" title="Managed services">Managed services</a>
+                            </li>
+                                                    <li>
+                                <a href="/how-it-works/contests" title="Design contests">Design contests</a>
+                            </li>
+                                                    <li>
+                                <a href="/how-it-works/cad-services" title="CAD services">CAD services</a>
+                            </li>
+                                                    <li>
+                                <a href="/3d-modeling-design" title="3D modeling services">3D modeling services</a>
+                            </li>
+                                                    <li>
+                                <a href="/programmers-and-developers" title="Programmers &amp; developers">Programmers &amp; developers</a>
+                            </li>
+                                                    <li>
+                                <a href="/how-it-works/manufacturing" title="Manufacturing services">Manufacturing services</a>
+                            </li>
+                                                    <li>
+                                <a href="/services" title="All services">All services</a>
+                            </li>
+                                                </ul>
+                    </div>
+                </div><!-- .footer-column -->
+                <div class="footer-column">
+                    <div class="column-header" role="button" data-bs-toggle="collapse" data-parent="#footerColumns" href="#footerBrowse" aria-expanded="false" aria-controls="footerBrowse">
+                        <i class="icon fas fa-chevron-down"></i>
+                        Browse
+                    </div>
+                    <div class="column-content collapse" id="footerBrowse">
+                        <ul class="footer-list list-unstyled">
+                                                        <li>
+                                <a href="/profiles"  title="Find freelance experts">Find freelance experts</a>
+                            </li>
+                                                        <li>
+                                <a href="/jobs/search"  title="Find freelance jobs">Find freelance jobs</a>
+                            </li>
+                                                        <li>
+                                <a href="/projects"  title="Design contests">Design contests</a>
+                            </li>
+                                                        <li>
+                                <a href="/jobs"  title="Find remote jobs worldwide">Find remote jobs worldwide</a>
+                            </li>
+                                                        <li>
+                                <a href="/jobs/l/us"  title="Find remote jobs in USA">Find remote jobs in USA</a>
+                            </li>
+                                                        <li>
+                                <a href="/3d-models"  title="3D models">3D models</a>
+                            </li>
+                                                        <li>
+                                <a href="/hire"  title="CAD designers by skill">CAD designers by skill</a>
+                            </li>
+                                                        <li>
+                                <a href="/l/us"  title="CAD designers in USA">CAD designers in USA</a>
+                            </li>
+                                                        <li>
+                                <a href="/l/ca"  title="CAD designers in Canada">CAD designers in Canada</a>
+                            </li>
+                                                        <li>
+                                <a href="/l/gb"  title="CAD designers in UK">CAD designers in UK</a>
+                            </li>
+                                                        <li>
+                                <a href="/l/au"  title="CAD designers in Australia">CAD designers in Australia</a>
+                            </li>
+                                                        <li>
+                                <a href="/l"  title="All countries">All countries</a>
+                            </li>
+                                                        <li>
+                                <a href="/sitemap"  title="Sitemap">Sitemap</a>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div><!-- .footer-column -->
+                <div class="footer-column">
+                    <div class="column-header" role="button" data-bs-toggle="collapse" data-parent="#footerColumns" href="#footerCompany" aria-expanded="false" aria-controls="footerCompany">
+                        <i class="icon fas fa-chevron-down"></i>
+                        Company
+                    </div>
+                    <div class="column-content collapse" id="footerCompany">
+                        <ul class="footer-list list-unstyled">
+                                                        <li>
+                                <a href="/company/about"  title="About us">About us</a>
+                            </li>
+                                                        <li>
+                                <a href="/company/press"  title="Press &amp; news">Press &amp; news</a>
+                            </li>
+                                                        <li>
+                                <a href="/company/media"  title="Media kit">Media kit</a>
+                            </li>
+                                                        <li>
+                                <a href="/company/testimonials"  title="Testimonials">Testimonials</a>
+                            </li>
+                                                        <li>
+                                <a href="/contact"  title="Contact us">Contact us</a>
+                            </li>
+                                                        <li>
+                                <a href="/page/termsofservice"  title="Terms of service">Terms of service</a>
+                            </li>
+                                                        <li>
+                                <a href="/page/privacypolicy"  title="Privacy policy">Privacy policy</a>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div><!-- .footer-column -->
+                <div class="footer-column">
+                    <div class="column-header" role="button" data-bs-toggle="collapse" data-parent="#footerColumns" href="#footerResources" aria-expanded="false" aria-controls="footerResources">
+                        <i class="icon fas fa-chevron-down"></i>
+                        Resources
+                    </div>
+                    <div class="column-content collapse" id="footerResources">
+                        <div class="clearfix">
+                            <ul class="footer-list list-unstyled">
+                                                                <li>
+                                    <a href="/contact"  title="Contact support">Contact support</a>
+                                </li>
+                                                                <li>
+                                    <a href="/blog/"  title="Blog">Blog</a>
+                                </li>
+                                                                <li>
+                                    <a href="/forum"  title="Forum">Forum</a>
+                                </li>
+                                                                <li>
+                                    <a href="/help/buyers/"  title="Client help">Client help</a>
+                                </li>
+                                                                <li>
+                                    <a href="/help/designers/"  title="Expert help">Expert help</a>
+                                </li>
+                                                                <li>
+                                    <a href="/designers"  title="Expert sign up">Expert sign up</a>
+                                </li>
+                                                            </ul>
+
+                            <div class="d-none d-lg-block">
+
+                                <div class="badges">
+                                    <a href="https://www.bbb.org/ca/ab/calgary/profile/industrial-design/cad-crowd-0017-91749" rel="nofollow" target="_blank">
+                                        <img loading="lazy" data-src="https://static.cadcrowd.com/themes/v5/images/logo/bbb-accredited.svg" class="lazyload" width="193" height="52" alt="BBB Accredited Business A+">
+                                    </a>
+                                    <br>
+                                    <a href="https://www.trustpilot.com/review/cadcrowd.com?stars=5" rel="nofollow" target="_blank">
+                                        <img loading="lazy" data-src="https://static.cadcrowd.com/themes/v5/images/logo/trustpilot-2.svg" class="lazyload" width="109" height="47" alt="Trustpilot">
+                                    </a>
+                                    <span class="flex-item">
+                                        <img loading="lazy" data-src="https://static.cadcrowd.com/themes/v5/images/logo/new/256-bit-encryption.png" class="img-ssl lazyload" width="110" height="46" alt="SSL Certificate">
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!-- .footer-column -->
+            </div><!-- .footer-columns -->
+        </div><!-- .footer-columns-wrap -->
+
+        <div class="footer-mobile-wrap clearfix d-lg-none">
+            <div class="badges">
+                <a href="https://www.bbb.org/ca/ab/calgary/profile/industrial-design/cad-crowd-0017-91749" rel="nofollow" target="_blank">
+                    <img loading="lazy" data-src="https://static.cadcrowd.com/themes/v5/images/logo/bbb-accredited.svg" class="lazyload" width="118" height="32" alt="BBB Accredited Business A+">
+                </a>
+                <a href="https://www.trustpilot.com/review/cadcrowd.com?stars=5" rel="nofollow" target="_blank">
+                    <img loading="lazy" data-src="https://static.cadcrowd.com/themes/v5/images/logo/trustpilot-2.svg" class="lazyload" width="88" height="38" alt="Trustpilot">
+                </a>
+                <a href="https://www.positivessl.com" rel="nofollow" target="_blank">
+                    <img loading="lazy" data-src="https://static.cadcrowd.com/themes/v5/images/logo/new/256-bit-encryption.png" class="lazyload" width="110" height="33" alt="SSL Certificate">
+                </a>
+            </div>
+        </div>
+
+    </div><!-- .container -->
+</div><!-- .footer-content-wrap -->
+
+<div class="subfooter-content-wrap">
+    <div class="container">
+        <hr aria-hidden="true">
+        <div class="row">
+            <div class="col-6 col-md-8">
+                <div class="row w-block-footer-address">
+                    <div class="col-md-6">
+                        <address>
+                            <strong>+1 (877) 880-8850</strong><br>
+                            <span>8:00 AM - 6:00 PM (PST) Mon-Fri</span><br>
+                        </address>
+                    </div>
+                    <div class="col-md-6">
+                        <address>
+                            <span></span>Cad Crowd 1709 E Glenoaks Blvd<br>
+                            <span>Suite 4, Glendale, CA </span><br>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 text-end">
+                <div class="button-block-grad">
+                    
+                    <a href="https://www.cadcrowd.com/quote" data-track="event" class="btn btn-primary btn-lg-sm w-button-grad">Get a quote</a>
+                    <p class="text-center"><a href="https://www.cadcrowd.com/how-it-works">or explore services</a></p>
+                </div>
+            </div><!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+    </div><!-- .subfooter-content-wrap -->
+
+<div class="subfooter-content-wrap-bottom">
+    <div class="container">
+        <hr aria-hidden="true">
+                <div class="row">
+            <div class="col-md-9 col-xl-10">
+                <div class="copyright">
+                    <span class="reserved-txt">
+                        <img loading="lazy" data-src="https://static.cadcrowd.com/themes/v5/images/logo/cc-logo.svg" class="lazyload" width="21" height="21" alt="Cad Crowd" style="margin-right: 8px;">
+                        &copy; 2025 Cad Crowd. All rights reserved
+                    </span>
+                    <span>
+                        <ul class="list-inline w-list-inline">
+                            <li class="w-mark d-none d-md-flex">·</li>
+                            <li><a href="/page/privacypolicy">Privacy</a></li>
+                            <li class="w-mark">·</li>
+                            <li><a href="/page/termsofservice">Terms</a></li>
+                            <li class="w-mark">·</li>
+                            <li><a href="/sitemap">Sitemap</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-3 col-xl-2 social-links">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/CAD.Crowd.Group" target="_blank" class="social fab fa-facebook" rel="nofollow"><span class="visually-hidden">Facebook</span></a>
+                    <a href="https://x.com/cadcrowd" target="_blank" class="social fab fa-x-twitter" rel="nofollow"><span class="visually-hidden">X</span></a>
+                    <a href="https://www.linkedin.com/company/cad-crowd" target="_blank" class="social fab fa-linkedin" rel="nofollow"><span class="visually-hidden">LinkedIn</span></a>
+                    <a href="/projects.rss" class="social fas fa-rss"><span class="visually-hidden">RSS</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><!-- .footer -->
+            
+    <script type="text/javascript">
+    var StickyFooter = {
+        refresh: function() {
+            var body = document.getElementsByTagName('body')[0];
+            if (body.getAttribute('class').indexOf('sticky-footer') < 0) {
+                return;
+            }
+
+            var footer = document.getElementsByTagName('footer');
+            if (footer.length === 0) {
+                return;
+            }
+            footer = footer[0];
+
+            if (footer.offsetTop > document.documentElement.clientHeight) {
+                return;
+            }
+
+            footer.style.height = 'auto';
+
+            var outerHeight = footer.offsetHeight;
+            var style = getComputedStyle(footer);
+            outerHeight += parseInt(style.marginTop) + parseInt(style.marginBottom);
+
+            body.style.marginBottom = outerHeight+'px';
+
+            footer.style.position = 'absolute';
+            footer.style.bottom = 0;
+            footer.style.width = '100%';
+            footer.style.height = footer.clientHeight+'px';
+        }
+    };
+
+    try {
+        StickyFooter.refresh();
+    } catch (e) {}
+</script>
+
+                <script src="https://static.cadcrowd.com/build/js/71814.32afee8e2a1506c0.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/33346.f97415c8087f2b39.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/13783.cf0467a5f719aa57.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/26879.ab8bef2ae20b3ccf.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/14812.298c02562fc9eb96.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/16585.752ce9a3903b8d1e.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/9899.650567676e5b636d.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/7488.8460066bbd01053b.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/79529.3aa68534a1716730.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/55236.7f07230dc00b6ac7.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/75666.e96129e16caadc82.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/92617.b2f0982b245f21aa.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/83178.bfb8f00ad9425d28.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/71706.98ced8bfb7da3a85.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/3269.08d945be6ebcbc35.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/67405.37c8119eb336f60b.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/60009.0de284f6dfaacc9c.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/34898.15eea62e213c3c13.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/73748.e367df988bcbf8dc.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/41608.830e4a0e384fe827.js" crossorigin defer></script>
+<script src="https://static.cadcrowd.com/build/js/login-v1.4c7ade6cc3ea5c8d.js" crossorigin defer></script>
+    
+    <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NLTKRNS');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script>
+        window.crispSettings = JSON.parse('{\u0022website_id\u0022:\u00222c15c94e-b7e6-4c69-b9e6-9c3fce7bea94\u0022,\u0022vars\u0022:[]}');
+        window.setTimeout(function() {
+            window.$crisp=[];window.CRISP_WEBSITE_ID=window.crispSettings.website_id;(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+
+            for (var varName in window.crispSettings.vars) {
+                if (window.crispSettings.vars.hasOwnProperty(varName)) {
+                    window.$crisp.push(["set", varName, window.crispSettings.vars[varName]]);
+                }
+            }
+
+            document.dispatchEvent(new Event('crispChatLoaded'));
+        }, 10000);
+    </script>
+</body>
+</html>
